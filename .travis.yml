@@ -10,6 +10,9 @@ script:
   - node -v
   - npm -v
   - echo "test by Mustafaeee"
+  - echo $test-env
+  - echo $test-env-branch-1
+  - echo $testing-macos-env
 
 #before_deploy:
 #  - export CHANGELOG=$(cat CHANGELOG-EXAMPLE.md)
